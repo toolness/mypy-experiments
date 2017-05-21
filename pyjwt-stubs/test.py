@@ -5,8 +5,8 @@ from pathlib import Path
 from typing import List
 
 MY_DIR = Path(__file__).resolve().parent
-GOOD_EXAMPLES_DIR = MY_DIR / 'good_examples'
-BAD_EXAMPLES_DIR = MY_DIR / 'bad_examples'
+GOOD_EXAMPLES_DIR = MY_DIR / 'good-examples'
+BAD_EXAMPLES_DIR = MY_DIR / 'bad-examples'
 MYPY_ENV = os.environ
 MYPY_ENV['MYPYPATH'] = str(MY_DIR / 'mypy-stubs')
 
